@@ -2,7 +2,7 @@ let listaDeNumerosSorteados = [];
 let numeroMaximo = 50
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1
-
+// Jogo em JS
 function exibirTextoNaTela (tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
